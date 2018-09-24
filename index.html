@@ -73,7 +73,21 @@
           <div class="section-heading">
             <h2>About us</h2>
             <div class="heading-line"></div>
-            <p>We’ve been building unique digital products, platforms, and experiences for the past 2 days.</p>
+            <p class ="PDays">We’ve been building unique digital products, platforms, and experiences for the past %% days.</p>
+            <script>
+              window.addEventListener("load",function(){
+                var html = document.getElementsByClassName("PDays");
+              var text = html[0].innerText;
+              var firstDate = new Date("09/19/2018");
+              var EndDate = new Date();
+              var timeDiff = Math.abs(firstDate.getTime() - EndDate.getTime());
+              var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
+              text = text.replace("%%",diffDays);
+              for(var o of html){
+                o.innerText = text;
+              }          });
+              
+            </script>
           </div>
         </div>
       </div>
@@ -116,7 +130,7 @@
           <div class="section-heading">
             <h2>Services</h2>
             <div class="heading-line"></div>
-            <p>We’ve been building unique digital products, platforms, and experiences for the past 2 days.</p>
+            <p class ="PDays">We’ve been building unique digital products, platforms, and experiences for the past 2 days.</p>
           </div>
         </div>
       </div>
@@ -193,7 +207,7 @@
           <div class="section-heading">
             <h2>Works</h2>
             <div class="heading-line"></div>
-            <p>We’ve been building unique digital products, platforms, and experiences for the past 2 days.</p>
+            <p class ="PDays" >We’ve been building unique digital products, platforms, and experiences for the past 2 days.</p>
           </div>
         </div>
       </div>
