@@ -23,7 +23,7 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-default" role="navigation">
+  <nav class="navbar navbar-default fixed-to-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -49,21 +49,55 @@
       </div>
     </div>
   </nav>
+<!-- Services -->
+<section id="services" class="home-section bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="carousel-service" class="service carousel slide">
 
-  <!-- intro area -->
-  <div id="intro">
-    <div class="intro-text">
-      <div class="container">
-        <div class="col-md-12">
-          <div id="rotator">
-            <h1><span class="1strotate">SimpleGameCompany</span></h1>
-            <div class="line-spacer"></div>
-            <p><span class="2ndrotate">Videogames, Animation, Art and much more.</span></p>
+          <!-- slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="row">
+                <div class="col-sm-12 col-md-5">
+                  <div class="screenshot wow bounceInRight">
+                    <img src="img/screenshots/1.png" class="img-responsive" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-12 col-md-5">
+                  <div class="screenshot wow bounceInRight">
+                    <img src="img/screenshots/2.png" class="img-responsive" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-12 col-md-5">
+                  <div class="screenshot wow bounceInRight">
+                    <img src="img/screenshots/3.png" class="img-responsive" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-service" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-service" data-slide-to="1"></li>
+            <li data-target="#carousel-service" data-slide-to="2"></li>
+          </ol>
         </div>
       </div>
     </div>
   </div>
+</section>
 
   <!-- About -->
   <section id="about" class="home-section bg-white">
@@ -122,82 +156,7 @@
     </div>
   </section>
 
-  <!-- Services -->
-  <section id="services" class="home-section bg-white">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-          <div class="section-heading">
-            <h2>Services</h2>
-            <div class="heading-line"></div>
-            <p class ="PDays">We’ve been building unique digital products, platforms, and experiences for the past 2 days.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div id="carousel-service" class="service carousel slide">
-
-            <!-- slides -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <div class="row">
-                  <div class="col-sm-12 col-md-offset-1 col-md-6">
-                    <div class="wow bounceInLeft">
-                      <h4>Videogames</h4>
-                      <p>Design and develop of both AAA and indie games.</p>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-5">
-                    <div class="screenshot wow bounceInRight">
-                      <img src="img/screenshots/1.png" class="img-responsive" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="row">
-                  <div class="col-sm-12 col-md-offset-1 col-md-6">
-                    <div class="wow bounceInLeft">
-                      <h4>Programming</h4>
-                      <p>Videogame programming at it's finest, with complex and responsive IA</p>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-5">
-                    <div class="screenshot wow bounceInRight">
-                      <img src="img/screenshots/2.png" class="img-responsive" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="row">
-                  <div class="col-sm-12 col-md-offset-1 col-md-6">
-                    <div class="wow bounceInLeft">
-                      <h4>Animation and Art</h4>
-                      <p>Fluid and real animations, Concept Art, using both classic and new techniques.</p>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-5">
-                    <div class="screenshot wow bounceInRight">
-                      <img src="img/screenshots/3.png" class="img-responsive" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-service" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-service" data-slide-to="1"></li>
-              <li data-target="#carousel-service" data-slide-to="2"></li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   <!-- Works -->
   <section id="portfolio" class="home-section bg-gray">

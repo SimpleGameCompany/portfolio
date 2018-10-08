@@ -100,14 +100,14 @@
 
     var scrollTop = $(window).scrollTop();
 
-    if (scrollTop > 200) {
+    //if (scrollTop < 400) {
       $('.navbar-default').css('display', 'block');
-      $('.navbar-default').addClass('fixed-to-top');
+      //$('.navbar-default').addClass('fixed-to-top');
 
-    } else if (scrollTop == 0) {
+    //} else /*if (scrollTop == 0)*/ {
 
-      $('.navbar-default').removeClass('fixed-to-top');
-    }
+      //$('.navbar-default').removeClass('fixed-to-top');
+    //}
   });
 
 
