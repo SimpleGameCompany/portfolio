@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-
+    <link rel="icon" href="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-11/256/ok-hand.png">
 <head>
   <title>SimpleGameCompany</title>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- css -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet"
+    media="screen">
 
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="css/style.css" rel="stylesheet" media="screen">
@@ -107,20 +108,22 @@
           <div class="section-heading">
             <h2>About us</h2>
             <div class="heading-line"></div>
-            <p class ="PDays">We’ve been building unique digital products, platforms, and experiences for the past %% days.</p>
+            <p class="PDays">We’ve been building unique digital products, platforms, and experiences for the past %%
+              days.</p>
             <script>
-              window.addEventListener("load",function(){
+              window.addEventListener("load", function () {
                 var html = document.getElementsByClassName("PDays");
-              var text = html[0].innerText;
-              var firstDate = new Date("09/19/2018");
-              var EndDate = new Date();
-              var timeDiff = Math.abs(firstDate.getTime() - EndDate.getTime());
-              var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
-              text = text.replace("%%",diffDays);
-              for(var o of html){
-                o.innerText = text;
-              }          });
-              
+                var text = html[0].innerText;
+                var firstDate = new Date("09/19/2018");
+                var EndDate = new Date();
+                var timeDiff = Math.abs(firstDate.getTime() - EndDate.getTime());
+                var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+                text = text.replace("%%", diffDays);
+                for (var o of html) {
+                  o.innerText = text;
+                }
+              });
+
             </script>
           </div>
         </div>
@@ -132,10 +135,12 @@
 
         <div class="col-md-6 content">
           <h2>The Art of Making Games</h2>
-          <h3>We value creativity and enthusiasm, and game development is one of the key sectors where we can fully appreciate those qualities.</h3>
+          <h3>We value creativity and enthusiasm, and game development is one of the key sectors where we can fully
+            appreciate those qualities.</h3>
           <p>
-            Although young, we're an enthusiastic group of students looking forward to learn and develop new creative skills, at the same time that we make new and creative games for others to enjoy.
-            Please, take a few moments to check our projects, you'll surely find them interesting! 
+            Although young, we're an enthusiastic group of students looking forward to learn and develop new creative
+            skills, at the same time that we make new and creative games for others to enjoy.
+            Please, take a few moments to check our projects, you'll surely find them interesting!
           </p>
         </div>
       </div>
@@ -156,7 +161,87 @@
     </div>
   </section>
 
+<<<<<<< HEAD
   
+=======
+  <!-- Services -->
+  <section id="services" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Services</h2>
+            <div class="heading-line"></div>
+            <p class="PDays">We’ve been building unique digital products, platforms, and experiences for the past 2
+              days.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carousel-service" class="service carousel slide">
+
+            <!-- slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Videogames</h4>
+                      <p>Design and develop of both AAA and indie games.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/1.png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Programming</h4>
+                      <p>Videogame programming at it's finest, with complex and responsive IA</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/2.png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Animation and Art</h4>
+                      <p>Fluid and real animations, Concept Art, using both classic and new techniques.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/3.png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-service" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-service" data-slide-to="1"></li>
+              <li data-target="#carousel-service" data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+>>>>>>> 723192ef01953c02f166290450a7f1c8e18d2e7e
 
   <!-- Works -->
   <section id="portfolio" class="home-section bg-gray">
@@ -166,7 +251,8 @@
           <div class="section-heading">
             <h2>Works</h2>
             <div class="heading-line"></div>
-            <p class ="PDays" >We’ve been building unique digital products, platforms, and experiences for the past 2 days.</p>
+            <p class="PDays">We’ve been building unique digital products, platforms, and experiences for the past 2
+              days.</p>
           </div>
         </div>
       </div>
@@ -175,6 +261,67 @@
 
           <ul id="og-grid" class="og-grid">
             <li>
+<<<<<<< HEAD
+              <a href="#" data-largesrc="img/works/1.jpg" data-title="Portfolio title" data-description="Duo te dico volutpat, unum elit oblique per id. Ne duo mollis sapientem intellegebat. Per at augue vidisse percipit, pri vocibus assueverit interesset ut, no dolore luptatum incorrupte nec. In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea. Sed oratio repudiare ei, cum an magna labitur, eu atqui augue mei. Pri consul detracto eu, solet nusquam accusam ex vim, an movet interesset necessitatibus mea.">
+                <img src="img/works/thumbs/1.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/2.jpg" data-title="Portfolio title" data-description="Mea an eros periculis dignissim, quo mollis nostrum elaboraret et. Id quem perfecto mel, no etiam perfecto qui. No nisl legere recusabo nam, ius an tale pericula evertitur, dicat phaedrum qui in. Usu numquam legendos in, voluptaria sadipscing ut vel. Eu eum mandamus volutpat gubergren, eos ad detracto nominati, ne eum idque elitr aliquam.">
+                <img src="img/works/thumbs/2.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/3.jpg" data-title="Portfolio title" data-description="Vim ad persecuti appellantur. Eam ignota deterruisset eu, in omnis fierent convenire sed. Ne nulla veritus vel, liber euripidis in eos. Postea comprehensam vis in, detracto deseruisse mei ea. Ex sadipscing deterruisset concludaturque quo.">
+                <img src="img/works/thumbs/3.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/4.jpg" data-title="Portfolio title" data-description="In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea. Sed oratio repudiare ei, cum an magna labitur, eu atqui augue mei. Pri consul detracto eu, solet nusquam accusam ex vim, an movet interesset necessitatibus mea.">
+                <img src="img/works/thumbs/4.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/5.jpg" data-title="Portfolio title" data-description="Duo te dico volutpat, unum elit oblique per id. Ne duo mollis sapientem intellegebat. Per at augue vidisse percipit, pri vocibus assueverit interesset ut, no dolore luptatum incorrupte nec. In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea">
+                <img src="img/works/thumbs/5.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/6.jpg" data-title="Portfolio title" data-description="Id elit saepe pro. In atomorum constituam definitionem quo, at torquatos sadipscing eum, ut eum wisi meis mentitum. Probo feugiat ea duo. An usu platonem instructior, qui dolores inciderint ad. Te elit essent mea, vim ne atqui legimus invenire, ad dolor vitae sea.">
+                <img src="img/works/thumbs/6.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/7.jpg" data-title="Portfolio title" data-description="Duo te dico volutpat, unum elit oblique per id. Ne duo mollis sapientem intellegebat. Per at augue vidisse percipit, pri vocibus assueverit interesset ut, no dolore luptatum incorrupte nec. In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea. Sed oratio repudiare ei, cum an magna labitur, eu atqui augue mei.">
+                <img src="img/works/thumbs/7.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/8.jpg" data-title="Portfolio title" data-description="No nisl legere recusabo nam, ius an tale pericula evertitur, dicat phaedrum qui in. Usu numquam legendos in, voluptaria sadipscing ut vel. Eu eum mandamus volutpat gubergren, eos ad detracto nominati, ne eum idque elitr aliquam.">
+                <img src="img/works/thumbs/8.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/9.jpg" data-title="Portfolio title" data-description="Lorem ipsum dolor sit amet, ex pri quod ferri fastidii. Mazim philosophia eum ad, facilisis laboramus te est. Eam magna fabellas ut. Ne vis diceret accumsan salutandi, pro in impedit accusamus dissentias, ut nonumy eloquentiam ius.">
+                <img src="img/works/thumbs/9.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/10.jpg" data-title="Portfolio title" data-description="Duo te dico volutpat, unum elit oblique per id. Ne duo mollis sapientem intellegebat. Per at augue vidisse percipit, pri vocibus assueverit interesset ut, no dolore luptatum incorrupte nec. In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea. Sed oratio repudiare ei, cum an magna labitur, eu atqui augue mei. Pri consul detracto eu, solet nusquam accusam ex vim.">
+                <img src="img/works/thumbs/10.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/11.jpg" data-title="Portfolio title" data-description="Vim ad persecuti appellantur. Eam ignota deterruisset eu, in omnis fierent convenire sed. Ne nulla veritus vel, liber euripidis in eos. Postea comprehensam vis in, detracto deseruisse mei ea. Ex sadipscing deterruisset concludaturque quo.">
+                <img src="img/works/thumbs/11.jpg" alt="img01" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/12.jpg" data-title="Portfolio title" data-description="Mea an eros periculis dignissim, quo mollis nostrum elaboraret et. Id quem perfecto mel, no etiam perfecto qui. No nisl legere recusabo nam, ius an tale pericula evertitur, dicat phaedrum qui in. Usu numquam legendos in, voluptaria sadipscing ut vel. Eu eum mandamus volutpat gubergren, eos ad detracto nominati, ne eum idque elitr aliquam.">
+                <img src="img/works/thumbs/12.jpg" alt="img01" />
+              </a>
+            </li>
+=======
               <a href="https://simd.itch.io/rose-of-the-dead" data-largesrc="img/works/1.jpg" data-title="Rose of the Dead" data-description="Los esqueletos quieren irse de fiesta, pero están desorientados. ¡Ayúdales orientando las salidas N/S/E/W!
 
               -Juego desarrollado por un grupo de estudiantes del GDDV en URJC: Guillermo Amigó Urda, Alejandro Camuñas Casas, Kevin Carrasco Bertrán, Carlos Marques González y Raquel Gastón Vicente.">
@@ -207,6 +354,7 @@
 								<img src="img/works/thumbs/4.jpg" alt="img01"/>
 							</a>
             </li>
+>>>>>>> 70b8a914566a1c25feb4e4646e4e4e530e104afc
           </ul>
 
         </div>
@@ -235,54 +383,203 @@
           <div class="section-heading">
             <h2>Our Team</h2>
             <div class="heading-line"></div>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum</p>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="box-team wow bounceInUp" data-wow-delay="0.1s">
             <img src="img/team/Pablo.jpg" alt="" class="img-circle img-responsive" />
             <h4>Pablo Rodríguez Vicente</h4>
             <p>Programmer</p>
+            <ul class="social-network">
+              <li><a href="https://github.com/pabloski300" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="https://www.linkedin.com/in/pablo-rodriguez-vicente-6b836116b/" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin-square fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="https://steamcommunity.com/profiles/76561198067443189" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-steam fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="https://twitter.com/pabloski300" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="https://pabloski300.itch.io/" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+
+            </ul>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" data-wow-delay="0.3s">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" data-wow-delay="0.3s">
           <div class="box-team wow bounceInUp">
             <img src="img/team/JoseDaniel.jpg" alt="" class="img-circle img-responsive" />
             <h4>Jose Daniel Campos Galán</h4>
             <p>Programmer</p>
+            <ul class="social-network">
+              <li><a href="http://jodacam.ddns.net/Portfolio" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="https://twitter.com/jodacam" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="https://github.com/Jodacam" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" data-wow-delay="0.5s">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" data-wow-delay="0.5s">
           <div class="box-team wow bounceInUp">
             <img src="img/team/Raquel.jpg" alt="" class="img-circle img-responsive" />
             <h4>Raquel Gastón Vicente</h4>
             <p>Artist</p>
+            <ul class="social-network">
+              <li><a href="https://github.com/rgastonv" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="https://www.linkedin.com/in/raquelgastonv/" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin-square fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="https://sketchfab.com/rgastonv/" target="_blank">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-cube fa-stack-1x fa-inverse"></i>
+                </span></a>
+            </li>
+              <li><a href="https://twitter.com/RaquelGastonV" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+
+              
+              <li><a href="http://rgastonv.artstation.com" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" data-wow-delay="0.7s">
+        <br>
+        <br>
+        <br>
+        <br>
+
+      </div>
+      <div class="row" style="margin-top: 35px;">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" data-wow-delay="0.7s">
           <div class="box-team wow bounceInUp">
             <img src="img/team/Guille.jpg" alt="" class="img-circle img-responsive" />
             <h4>Guille Amigó Urda</h4>
             <p>Game Designer</p>
+            <ul class="social-network">
+
+
+              <li><a href="https://twitter.com/GuillermoAmigoU" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="https://duckbeard.itch.io/" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+            </ul>
           </div>
         </div>
-        
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" data-wow-delay="0.9s">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" data-wow-delay="0.9s">
           <div class="box-team wow bounceInUp">
             <img src="img/team/Camu.jpg" alt="" class="img-circle img-responsive" />
             <h4>Alejandro Camuñas Casas</h4>
             <p>Narrative Designer/3D Animator</p>
+            <ul class="social-network">
+              <li><a href="http://twitter.com/Aleviux" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="http://youtube.com/user/Aleviux" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" data-wow-delay="1.1s">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" data-wow-delay="1.1s">
           <div class="box-team wow bounceInUp">
             <img src="img/team/Andres.jpg" alt="" class="img-circle img-responsive" />
             <h4>Andrés Felipe García</h4>
             <p>3D Modeler & Developer</p>
+            <ul class="social-network">
+              <li><a href="https://sketchfab.com/luking1995/" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-cube fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="https://twitter.com/luking1995/" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="http://luk224.cf/" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-american-sign-language-interpreting fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+              <li><a href="https://www.youtube.com/user/theLuking1995" target="_blank">
+                  <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span></a>
+              </li>
+
+            </ul>
           </div>
         </div>
 
@@ -387,28 +684,28 @@
           <h5>We're on social networks</h5>
           <ul class="social-network">
             <li><a href="#">
-						<span class="fa-stack fa-2x">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-						</span></a>
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span></a>
             </li>
             <li><a href="#">
-						<span class="fa-stack fa-2x">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
-						</span></a>
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+                </span></a>
             </li>
             <li><a href="#">
-						<span class="fa-stack fa-2x">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-						</span></a>
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span></a>
             </li>
             <li><a href="#">
-						<span class="fa-stack fa-2x">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
-						</span></a>
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+                </span></a>
             </li>
           </ul>
         </div>
@@ -457,4 +754,5 @@
   <script src="js/custom.js"></script>
 
 </body>
+
 </html>
