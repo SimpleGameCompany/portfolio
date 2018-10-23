@@ -14,7 +14,7 @@ ProEvolutionQuidditch.introState.prototype = {
     	game.add.sprite(120, 420, 'cleangame').scale.setTo(0.35,0.35);
 
     	spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
-    	spaceKey.onDown.add(function () {game.state.start('menuState');}, this);
+    	spaceKey.onDown.add(function () {game.state.start('levelState');}, this);
     },
 
     update: function() {
