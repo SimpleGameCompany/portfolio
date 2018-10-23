@@ -43,6 +43,7 @@ ProEvolutionQuidditch.menuState.prototype = {
     start=game.add.image(game.world.centerX, game.world.centerY+150, 'start');
     start.anchor.x = 0.5;
     start.anchor.y = 0.5;
+    //Comentario.
     //Indicador de los jugadores en partida
     player1=game.add.image(game.world.centerX, game.world.centerY+200, 'player 1');
     player1.anchor.x = 0.5;
