@@ -1,7 +1,7 @@
 var ProEvolutionQuidditch = {}
 
 ProEvolutionQuidditch.bootState = function(game) {
-
+    var game = game
 }
 
 ProEvolutionQuidditch.bootState.prototype = {
@@ -11,7 +11,8 @@ ProEvolutionQuidditch.bootState.prototype = {
     },
 
     create: function() {
-
+        game.physics.startSystem(Phaser.Physics.Arcade);
+        game.state.start("preloadState");
     },
 
     update: function() {
