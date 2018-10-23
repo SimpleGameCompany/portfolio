@@ -1,7 +1,7 @@
 var ProEvolutionQuidditch = {}
 
 ProEvolutionQuidditch.bootState = function(game) {
-
+    var game = game
 }
 
 ProEvolutionQuidditch.bootState.prototype = {
