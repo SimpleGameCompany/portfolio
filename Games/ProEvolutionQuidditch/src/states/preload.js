@@ -56,11 +56,14 @@ ProEvolutionQuidditch.preloadState.prototype = {
 
     create: function() {
 
-    	this.state.start('endingState');
+    	this.state.start('menuState');
 
     },
 
     update: function() {
+
+        game.add.image(0, 0, 'background');
+        game.add.image(153, 257, 'loading1');
 
     }
 }
