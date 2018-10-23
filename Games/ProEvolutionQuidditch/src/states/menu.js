@@ -67,7 +67,7 @@ ProEvolutionQuidditch.menuState.prototype = {
     //Interaccion de botones
     if (skey.isDown)
     {
-        game.state.start("levelState");
+        game.state.start("introState");
     }
     if (press1key.isDown && !pressed1)
     {
