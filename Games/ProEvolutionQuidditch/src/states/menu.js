@@ -45,7 +45,7 @@ ProEvolutionQuidditch.menuState.prototype = {
 
     if (skey.isDown)
     {
-        game.state.start("preloadState");
+        game.state.start("levelState");
     }
     if (press1.isDown && !pressed1)
     {
