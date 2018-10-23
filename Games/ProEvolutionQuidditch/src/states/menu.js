@@ -31,7 +31,7 @@ ProEvolutionQuidditch.menuState.prototype = {
     var start=game.add.image(game.world.centerX, game.world.centerY-200, 'start');
     //Indicador de os jugadores en partida
     var player1=game.add.image(game.world.centerX, game.world.centerY-200, 'player 1');
-    var player2=game.add.image(game.world.centerX, game.world.centerY-200, 'player 2');
+    var player2=game.add.image(game.world.centerX, game.world.centerY-200, 'player2');
 
         //Keys de 1,2,s
     skey = game.input.keyboard.addKey(Phaser.Keyboard.S);
