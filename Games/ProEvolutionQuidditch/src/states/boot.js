@@ -7,7 +7,7 @@ ProEvolutionQuidditch.bootState = function(game) {
 ProEvolutionQuidditch.bootState.prototype = {
 
     preload: function() {
-        
+        console.log("Boot");
     },
 
     create: function() {
