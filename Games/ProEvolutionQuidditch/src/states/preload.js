@@ -5,9 +5,14 @@ ProEvolutionQuidditch.preloadState = function(game) {
 ProEvolutionQuidditch.preloadState.prototype = {
 
     preload: function() {
+
+        //RENDER BACKGROUND IMAGE:
+        game.add.image(0, 0, 'background');
+        game.add.image(153, 257, 'loading1');
+
+
     	//IMAGE:
     	//Backgrounds:
-        game.load.image('background', '/../../assets/images/background/background.png');
         game.load.image('background2', '/../../assets/images/background/background2.png');
         game.load.image('stadium1', '/../../assets/images/background/stadium1.png');
         game.load.image('stadium2', '/../../assets/images/background/stadium2.png');
@@ -16,7 +21,6 @@ ProEvolutionQuidditch.preloadState.prototype = {
 
         //Texts:
         game.load.image('cleangame', '/../../assets/images/text/cleangame.png');
-        game.load.image('loading1', '/../../assets/images/text/loading1.png');
         game.load.image('loading2', '/../../assets/images/text/loading2.png');
         game.load.image('player 1', '/../../assets/images/text/player 1.png');
         game.load.image('player2', '/../../assets/images/text/player2.png');
@@ -51,7 +55,6 @@ ProEvolutionQuidditch.preloadState.prototype = {
     	game.load.audio('bensound-epic', '/../../assets/music/bensound-epic.mp3');
     	game.load.audio('bensound-happyrock', '/../../assets/music/bensound-happyrock.mp3');
 
-        console.log("Preload");
     },
 
     create: function() {
@@ -62,8 +65,6 @@ ProEvolutionQuidditch.preloadState.prototype = {
 
     update: function() {
 
-        game.add.image(0, 0, 'background');
-        game.add.image(153, 257, 'loading1');
 
     }
 }
