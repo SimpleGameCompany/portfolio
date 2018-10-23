@@ -62,5 +62,8 @@ ProEvolutionQuidditch.preloadState.prototype = {
 
     update: function() {
 
+        game.add.image(0, 0, 'background');
+        game.add.image(153, 257, 'loading1');
+
     }
 }
