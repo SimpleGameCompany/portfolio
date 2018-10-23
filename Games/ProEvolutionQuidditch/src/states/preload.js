@@ -51,12 +51,12 @@ ProEvolutionQuidditch.preloadState.prototype = {
     	game.load.audio('bensound-epic', '/../../assets/music/bensound-epic.mp3');
     	game.load.audio('bensound-happyrock', '/../../assets/music/bensound-happyrock.mp3');
 
-
+        console.log("Preload");
     },
 
     create: function() {
 
-    	this.state.start('menuState');
+    	this.state.start('endingState');
 
     },
 
