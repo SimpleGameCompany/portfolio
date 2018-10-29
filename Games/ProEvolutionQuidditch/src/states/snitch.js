@@ -1,4 +1,6 @@
 var balls;
+var points;
+
 
 function snitch(sizeX,sizeY,game){
     this.sizeX =sizeX;
@@ -6,11 +8,18 @@ function snitch(sizeX,sizeY,game){
     this.x;
     this.y;
     this.game=game;
+    this.sprite;
 
     this.initBall = function(){
         this.x = Math.floor(Math.random()*sizeX);
         this.y = Math.floor(Math.random()*sizeY);
+<<<<<<< HEAD
+        this.sprite = game.add.sprite(this.x,this.y,'snitch');
+        this.sprite.anchor.set(0.5);
+        game.physics.enable(this.sprite, Phaser.Physics.ARCADE);
+=======
         game.add.sprite(x,y,"snitch");
+>>>>>>> 41ecdd6ac673d0407fbcde501f8d09c9f007d6bd
     }
 
     this.resetBall = function(){
@@ -22,6 +31,13 @@ function snitch(sizeX,sizeY,game){
         }
     }
 
+}
+var pointsmasmas = function(player){
+    if(points[player]!= null){
+        points[player]++;
+    }else{
+        points[player] =1;
+    }
 }
 
 
@@ -45,13 +61,18 @@ function snitches (characters,sizeX,sizeY,game){
 
     this.handleCollisions = function(){
         for(var i =0;i<balls.length; i++){
-            balls[i].handleCollision(characters);
+            for(var j =0;j<characters.length; j++){
+                game.physics.arcade.collide(characters[j],balls[i].sprite,function(){pointsmasmas(j);},null,this);
+            }
+            
         }
     }
+    
   
     
 }
-
+/*
 var s = new snitches(2,50,50,"50");
 s.initFirst();
 s.newBall();
+*/

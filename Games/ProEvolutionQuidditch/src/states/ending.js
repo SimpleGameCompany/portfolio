@@ -19,20 +19,20 @@ ProEvolutionQuidditch.endingState.prototype = {
         copa.anchor.x = 0.5;
         copa.anchor.y = 0.5;
 
-        var winnerText = game.add.image(400,10,'winner');
+        var winnerText = game.add.image(400,0,'winner');
         winnerText.anchor.x = 0.5;
 
         var returnText = game.add.image(400,winner.height,'return');
         returnText.anchor.x = 0.5;
         returnText.scale.setTo(0.5,0.5);
 
-        spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
-        //players[ganador].character;        
+        
+        //players[ganador].character;
     },
 
     update: function() {
-        if(spaceKey.isDown){
-            game.state.start("menuState");
-        }
+        //if(spaceKey.isDown){
+            //game.state.start("menuState");
+        //}
     }
 }
