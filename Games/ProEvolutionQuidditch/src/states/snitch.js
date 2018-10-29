@@ -13,9 +13,13 @@ function snitch(sizeX,sizeY,game){
     this.initBall = function(){
         this.x = Math.floor(Math.random()*sizeX);
         this.y = Math.floor(Math.random()*sizeY);
+<<<<<<< HEAD
         this.sprite = game.add.sprite(this.x,this.y,'snitch');
         this.sprite.anchor.set(0.5);
         game.physics.enable(this.sprite, Phaser.Physics.ARCADE);
+=======
+        game.add.sprite(x,y,"snitch");
+>>>>>>> 41ecdd6ac673d0407fbcde501f8d09c9f007d6bd
     }
 
     this.resetBall = function(){
@@ -23,8 +27,7 @@ function snitch(sizeX,sizeY,game){
         this.y = Math.floor(Math.random()*sizeY);
     }
     this.handleCollision= function (characters){
-        for(var i =0; i< characters.length;i++){
-            
+        for(var i =0; i< characters.length;i++){       
         }
     }
 
