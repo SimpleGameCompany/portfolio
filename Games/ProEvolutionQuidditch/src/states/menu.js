@@ -18,6 +18,10 @@ ProEvolutionQuidditch.menuState = function(game) {
 
 }
 
+var music;
+var oneSound;
+var twoSound;
+
 ProEvolutionQuidditch.menuState.prototype = {
 
     preload: function() {
@@ -60,6 +64,12 @@ ProEvolutionQuidditch.menuState.prototype = {
     player2.visible = false;
     press1.visible = false;
    
+    music = game.add.audio("bensound-creepy");
+    music.play();
+
+    oneSound = game.add.audio("1");
+    twoSound = game.add.audio("2");
+
     },
 
     update: function() {
@@ -68,11 +78,13 @@ ProEvolutionQuidditch.menuState.prototype = {
     if (skey.isDown)
     {
         game.state.start("introState");
+        music.stop();
     }
     if (press1key.isDown && !pressed1)
     {
         console.log("switched from 2 players to 1 player.");
 
+        oneSound.play();
         var playernumber=1;
         pressed1=true;
         //hacemos visibles e invisibles imágenes en funcion de la opcion
@@ -84,6 +96,8 @@ ProEvolutionQuidditch.menuState.prototype = {
     if (press2key.isDown && pressed1)
     {
         console.log("switched from 1 player to 2 players.");
+
+        twoSound.play();
         var playernumber=2;
         pressed1=false;
         //hacemos visibles e invisibles imágenes en funcion de la opcion
