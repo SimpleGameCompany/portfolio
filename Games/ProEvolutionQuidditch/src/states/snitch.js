@@ -10,7 +10,7 @@ function snitch(sizeX,sizeY,game){
     this.initBall = function(){
         this.x = Math.floor(Math.random()*sizeX);
         this.y = Math.floor(Math.random()*sizeY);
-        game.add.
+        game.add.sprite(x,y,"snitch");
     }
 
     this.resetBall = function(){
@@ -18,8 +18,7 @@ function snitch(sizeX,sizeY,game){
         this.y = Math.floor(Math.random()*sizeY);
     }
     this.handleCollision= function (characters){
-        for(var i =0; i< characters.length;i++){
-            
+        for(var i =0; i< characters.length;i++){       
         }
     }
 
