@@ -10,7 +10,7 @@ function player (id,x,y,character, game){
     this.down  = game.input.keyboard.addKey(Phaser.Keyboard.S);
     this.left  = game.input.keyboard.addKey(Phaser.Keyboard.A);
     this.right = game.input.keyboard.addKey(Phaser.Keyboard.D);
-    
+    game.physics.enable(this.phaserObject, Phaser.Physics.ARCADE);
     
     
     this.InputStage = function(game){
