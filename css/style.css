@@ -20,7 +20,7 @@ General
 body{
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.6em;
 }
 
@@ -50,7 +50,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	font-family: 'Montserrat', sans-serif;
 }
 
-
 .lead{
 	font-weight: 400;
 }
@@ -74,6 +73,7 @@ button {
 	-o-user-select: none;
 	user-select: none;
 }
+
 button.navbar-toggle {
 	background: #2b2b2b;
 	border: none;
@@ -83,6 +83,7 @@ button.navbar-toggle {
 .btn-theme,.btn-theme:hover,.btn-theme:focus{
 	color: #fff;
 }
+
 .btn-theme:hover{
 	background: transparent !important;
 	border-color: #999;
@@ -93,6 +94,7 @@ button.navbar-toggle {
 /* ================================
 margin, padding
 ================================= */
+
 .mar-top0 {
 	margin-top: 0;
 }
@@ -108,7 +110,6 @@ margin, padding
 .mar-top40 {
 	margin-top: 40px;
 }
-
 
 /* Back to top button */
 .back-to-top {
@@ -225,11 +226,11 @@ Home sections
 }
 
 .bg-gray {
-	background: #f8f8f8;
+	background: #c4c4c4;
 }
 
 .bg-dark {
-	background: #575757;
+	background: #1d1d1d;
 }
 
 
@@ -261,6 +262,7 @@ Parallax
 Intro
 ================================= */
 
+/*
 #intro {
 	position: relative;
 	margin: 0 auto;
@@ -270,7 +272,7 @@ Intro
 	z-index:2;
 	background-size:cover;
 
-}
+}*/
 
 .intro-text {
   display: flex;
@@ -368,11 +370,10 @@ Team
 	margin-bottom: 30px;
 }
 
-
-
 /* ================================
 Services
 ================================= */
+
 .service.carousel h4,.service.carousel p {
 	text-align: left;
 }
@@ -427,7 +428,6 @@ Services
 	text-indent: -999px;
 	cursor: pointer;
 }
-
 
 /* ================================
 Works
@@ -661,7 +661,6 @@ ul.clients li {
 	display: inline;
 }
 
-
 /* ================================
 Bottom widget
 ================================= */
@@ -673,6 +672,7 @@ ul.social-network {
 	margin-left:0;
 	padding-left: 0;
 	list-style: none;
+	font-size: 14px;
 }
 ul.social-network li {
 	display: inline;
@@ -687,11 +687,12 @@ ul.social-network li a:hover span .fa-circle {
 ul.social-network li a i{
   transition: 0.3s
 }
+
 /* ================================
 Footer
 ================================= */
 footer {
-	background: #00c1c1;
+	background: #f09300;
 	color: #fff;
 	padding: 50px 0 30px;
 }

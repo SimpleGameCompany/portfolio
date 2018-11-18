@@ -59,8 +59,6 @@
   transform: rotate(360deg) scale(0);
 }
 
-
-
 .rotating.flip .back {
   z-index: 2;
   display: block;
