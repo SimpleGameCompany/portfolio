@@ -1,3 +1,6 @@
+Bootstrap Theme
+---------------
+
 Thanks for downloading this theme!
 
 Theme Name: Alstar
