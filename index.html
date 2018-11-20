@@ -13,6 +13,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
     <link href="css/header.css" rel="stylesheet" media="screen">
+    <link href="css/fixes.css" rel="stylesheet" media="screen">
     <link href="color/default.css" rel="stylesheet" media="screen">
     
     <!-- Bootstrap Theme 
@@ -61,10 +62,10 @@
           </div>
         </div>
         <div class="covertext">
-          <div class="col-lg-10" style="float:none; margin:0 auto;">
-            <img src="img/marketing/LogoSmall.png" alt="" class="img-circle img-responsive" style="margin-left: auto; margin-right: auto;"/>
+          <div id="headerdiv" class="col-lg-10">
+            <img id="aboutimg" src="img/marketing/LogoSmall.png" alt="" class="img-circle img-responsive"/>
             <h1 class="title">The Art of Making Games</h1>
-            <div style="margin-right: 25%; margin-left: 25%;">
+            <div id="headertext">
               <h3 class="subtitle">
                   Although young, we're an enthusiastic group of students looking forward to learn and develop new creative
                   skills, at the same time that we make fun new games for others to enjoy.
@@ -146,7 +147,7 @@
 
           <div class="col-md-6 content">
             <h2>Why Us?</h2>
-            <h3 style="text-align:justify">
+            <h3 id="h3justified">
               Unlike other companies, we always put the customer first in our products.
               Knowing our users, their point of view, ideas and concerns, and taking them into account when developing our products.
               We may make the games, but they are YOUR games. </br></br>
@@ -158,7 +159,7 @@
     </section>
 
     <!-- Parallax 1 -->
-    <section id="parallax1" class="home-section parallax" data-stellar-background-ratio="0.2" style="background-size: cover; background-position: center center; background-attachment: fixed">
+    <section id="parallax1" class="home-section parallax" data-stellar-background-ratio="0.2">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -265,15 +266,15 @@
         <div class="row">
           <div class="col-lg-12">
             <ul id="og-grid" class="og-grid">
-              <li class="wow fadeInUp" data-wow-delay="0.1s" style="margin-top: 45px">
+              <li id="ligame" class="wow fadeInUp" data-wow-delay="0.1s">
                 <a href="https://simd.itch.io/rose-of-the-dead" data-largesrc="img/works/1.jpg" data-title="Game Jam: Rose of the Dead"
                   data-description="Los esqueletos quieren irse de fiesta, pero están desorientados. <br/>
                   ¡Ayúdales orientando las salidas N/S/E/W!">
-                  <img src="img/works/thumbs/1.jpg" alt="" />
+                  <img src="img/works/thumbs/1.jpg" alt=""/>
                   <a href="https://www.youtube.com/watch?v=PnQs95umuIU">Watch the trailer</a>
                 </a>
               </li>
-              <li class="wow fadeInUp" data-wow-delay="0.3s" style="margin-top: 45px">
+              <li id="ligame" class="wow fadeInUp" data-wow-delay="0.3s">
                 <a href="https://simd.itch.io/work-it-out" data-largesrc="img/works/2.jpg" data-title="Game Jam: Work It Out"
                   data-description="Bienvenido novato, <br/><br/>
                 Hoy es un día ajetreado en la oficina, los clientes están buscando trabajo y precisan de tu guía para conseguirlo. <br/><br/>
@@ -283,13 +284,13 @@
                   <a href="https://www.youtube.com/watch?v=C190aUrSfF0">Watch the trailer</a>
                 </a>
               </li>
-              <li class="wow fadeInUp" data-wow-delay="0.5s" style="margin-top: 45px">
+              <li id="ligame" class="wow fadeInUp" data-wow-delay="0.5s">
                 <a href="#" data-largesrc="img/works/placeholder.jpg" data-title="Timmy Is Happy" data-description="Coming soon.">
                   <img src="img/works/thumbs/placeholder.jpg" alt="img01"/>
                   <a href="">Watch the trailer</a>
                 </a>
               </li>
-              <li class="wow fadeInUp" data-wow-delay="0.7s" style="margin-top: 45px">
+              <li id="ligame" class="wow fadeInUp" data-wow-delay="0.7s">
                 <a href="#" data-largesrc="img/works/placeholder.jpg" data-title="Game Maker Maker" data-description="Coming soon.">
                   <img src="img/works/thumbs/placeholder.jpg" alt="img01"/>
                   <a href="">Watch the trailer</a>
@@ -302,7 +303,7 @@
     </section>
 
     <!-- Parallax 2 -->
-    <section id="parallax2" class="home-section parallax" data-stellar-background-ratio="0.2" style="background-size: cover; background-position: center center; background-attachment: fixed">
+    <section id="parallax2" class="home-section parallax" data-stellar-background-ratio="0.2">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -328,8 +329,8 @@
           </div>
         </div>
 
-      <div class="row" style="margin-top: 35px;">
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="padding: 25px">
+      <div id="teamrow" class="row">
+        <div id="teammember" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="box-team wow fadeInUp" data-wow-delay="0.1s">
             <img src="img/team/Camu.jpg" alt="" class="img-circle img-responsive"/>
             <h4>Alejandro Camuñas Casas</h4>
@@ -356,7 +357,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="padding: 25px">
+        <div id="teammember" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="box-team wow fadeInUp" data-wow-delay="0.3s">
             <img src="img/team/Andres.jpg" alt="" class="img-circle img-responsive" />
             <h4>Andrés Felipe García</h4>
@@ -389,7 +390,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="padding: 25px">
+        <div id="teammember" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
             <div class="box-team wow fadeInUp" data-wow-delay="0.5s">
               <img src="img/team/Guille.jpg" alt="" class="img-circle img-responsive" />
               <h4>Guillermo Amigó Urda</h4>
@@ -412,8 +413,8 @@
         </div>
       </div>
 
-      <div class="row" style="margin-top: 35px;">
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="padding: 25px">
+      <div id="teamrow" class="row">
+          <div id="teammember" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
             <div class="box-team wow fadeInUp" data-wow-delay="0.3s">
               <img src="img/team/JoseDaniel.jpg" alt="" class="img-circle img-responsive" />
               <h4>Jose Daniel Campos Galán</h4>
@@ -440,7 +441,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="padding: 25px">
+          <div id="teammember" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <div class="box-team wow fadeInUp" data-wow-delay="0.5s">
                 <img src="img/team/Pablo.jpg" alt="" class="img-circle img-responsive" />
                 <h4>Pablo Rodríguez Vicente</h4>
@@ -479,7 +480,7 @@
                 </ul>
               </div>
           </div>
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="padding: 25px">
+          <div id="teammember" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
             <div class="box-team wow fadeInUp" data-wow-delay="0.7s">
               <img src="img/team/Raquel.jpg" alt="" class="img-circle img-responsive" />
               <h4>Raquel Gastón Vicente</h4>
@@ -521,7 +522,7 @@
       </div>
 
       <!-- Grongo
-      <div class="row" style="margin-top: 35px;">
+      <div id="teamrow" class="row">
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"></div>
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="box-team wow fadeInUp" data-wow-delay="0.5s">

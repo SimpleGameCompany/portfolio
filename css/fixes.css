@@ -1,0 +1,36 @@
+#headerdiv {
+    float:none; 
+    margin:0 auto;
+}
+
+#headertext {
+    margin-right: 25%; 
+    margin-left: 25%;
+}
+
+#h3justified {
+    text-align:justify;
+}
+
+#ligame {
+    margin-top: 45px;
+}
+
+#aboutimg {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#parallax2, #parallax1 {
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+#teamrow {
+    margin-top: 35px;
+}
+
+#teammember {
+    padding: 25px;
+}
